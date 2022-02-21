@@ -10,7 +10,7 @@ provider "aws" {
   }
 }
 
-# Create Bucket
+# Create SQS
 resource "aws_sqs_queue" "queue" {
   name      =   "onexlab-SQS"
 }
